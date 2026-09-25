@@ -1,0 +1,15 @@
+d:\LEARN_C#\01_String_Operations\bin\Debug\net10.0\01_String_Operations.exe
+d:\LEARN_C#\01_String_Operations\bin\Debug\net10.0\01_String_Operations.deps.json
+d:\LEARN_C#\01_String_Operations\bin\Debug\net10.0\01_String_Operations.runtimeconfig.json
+d:\LEARN_C#\01_String_Operations\bin\Debug\net10.0\01_String_Operations.dll
+d:\LEARN_C#\01_String_Operations\bin\Debug\net10.0\01_String_Operations.pdb
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\01_String_Operations.GeneratedMSBuildEditorConfig.editorconfig
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\01_String_Operations.AssemblyInfoInputs.cache
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\01_String_Operations.AssemblyInfo.cs
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\01_String_Operations.csproj.CoreCompileInputs.cache
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\01_String_Operations.dll
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\refint\01_String_Operations.dll
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\01_String_Operations.pdb
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\01_String_Operations.genruntimeconfig.cache
+d:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\ref\01_String_Operations.dll
+D:\LEARN_C#\01_String_Operations\obj\Debug\net10.0\01_Strin.CCB977C2.Up2Date

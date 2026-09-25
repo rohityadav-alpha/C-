@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="01_String_Operations/01_String_Operations.csproj" />
+  <Project Path="02_List_and_Array_Operations/02_List_and_Array_Operations.csproj" />
+  <Project Path="03_Dictionary_Operations/03_Dictionary_Operations.csproj" />
+  <Project Path="04_HashSet_Operations/04_HashSet_Operations.csproj" />
+  <Project Path="05_Tuple_Operations/05_Tuple_Operations.csproj" />
+  <Project Path="06_Loops_and_Patterns/06_Loops_and_Patterns.csproj" />
+  <Project Path="07_Array_Operations/07_Array_Operations.csproj" />
+  <Project Path="08_OOP_and_LINQ/08_OOP_and_LINQ.csproj" />
+</Solution>
