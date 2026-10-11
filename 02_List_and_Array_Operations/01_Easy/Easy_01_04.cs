@@ -50,6 +50,25 @@ public static class Easy_01_04
         Console.WriteLine();
 
 
+        // Q3: Reverse a List Without Using Built-in Reverse
+        // Python:
+        // rev = []; for i in range(len(l)-1, -1, -1): rev.append(l[i])
+        Console.WriteLine("--- Q3: Reverse List Without Built-in Method ---");
+        static List<int> ReverseList(List<int> list)
+        {
+            List<int> reversed = new List<int>();
+            // In C#, list.Count is used instead of len(list)
+            for (int i = list.Count - 1; i >= 0; i--)
+            {
+                reversed.Add(list[i]); // .Add() in C# is equivalent to .append() in Python
+            }
+            return reversed;
+        }
+        List<int> revResult = ReverseList(list1);
+        Console.WriteLine("Original: [" + string.Join(", ", list1) + "]");
+        Console.WriteLine("Reversed: [" + string.Join(", ", revResult) + "]");
+        Console.WriteLine();
+
         
     }
 }
