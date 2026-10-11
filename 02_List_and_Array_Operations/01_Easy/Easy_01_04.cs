@@ -69,6 +69,35 @@ public static class Easy_01_04
         Console.WriteLine("Reversed: [" + string.Join(", ", revResult) + "]");
         Console.WriteLine();
 
-        
+        // Q4: Remove Duplicate Elements From a List
+        // Python:
+        // Sol 1: list(set(l1))
+        // Sol 2: temp = []; for i in l1: if i not in temp: temp.append(i)
+        Console.WriteLine("--- Q4: Remove Duplicates ---");
+
+        // Solution 1: Using HashSet<T> (C#'s set())
+        static List<int> RemoveDuplicatesWithSet(List<int> list)
+        {
+            HashSet<int> seen = new HashSet<int>(list);
+            return seen.ToList();
+        }
+        Console.WriteLine("Sol 1 (using HashSet): [" + string.Join(", ", RemoveDuplicatesWithSet(list1)) + "]");
+
+        // Solution 2: Without HashSet (Manual temp list)
+        static List<int> RemoveDuplicatesManual(List<int> list)
+        {
+            List<int> uniqueList = new List<int>();
+            foreach (int item in list)
+            {
+                // In C#, !uniqueList.Contains(item) is equivalent to "if item not in temp"
+                if (!uniqueList.Contains(item))
+                {
+                    uniqueList.Add(item);
+                }
+            }
+            return uniqueList;
+        }
+        Console.WriteLine("Sol 2 (Manual Loop):   [" + string.Join(", ", RemoveDuplicatesManual(list1)) + "]");
+        Console.WriteLine();
     }
 }
