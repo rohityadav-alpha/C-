@@ -1,0 +1,14 @@
+d:\LEARN_C#\02_List_and_Array_Operations\bin\Debug\net10.0\02_List_and_Array_Operations.exe
+d:\LEARN_C#\02_List_and_Array_Operations\bin\Debug\net10.0\02_List_and_Array_Operations.deps.json
+d:\LEARN_C#\02_List_and_Array_Operations\bin\Debug\net10.0\02_List_and_Array_Operations.runtimeconfig.json
+d:\LEARN_C#\02_List_and_Array_Operations\bin\Debug\net10.0\02_List_and_Array_Operations.dll
+d:\LEARN_C#\02_List_and_Array_Operations\bin\Debug\net10.0\02_List_and_Array_Operations.pdb
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.GeneratedMSBuildEditorConfig.editorconfig
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.AssemblyInfoInputs.cache
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.AssemblyInfo.cs
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.csproj.CoreCompileInputs.cache
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.dll
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\refint\02_List_and_Array_Operations.dll
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.pdb
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.genruntimeconfig.cache
+d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\ref\02_List_and_Array_Operations.dll

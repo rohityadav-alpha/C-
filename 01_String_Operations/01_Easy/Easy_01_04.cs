@@ -95,5 +95,6 @@ public static class Easy_01_04
         CheckPalindrome("boob");
         CheckPalindrome("rohit");
         Console.WriteLine();
+
     }
 }
