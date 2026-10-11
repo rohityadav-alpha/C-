@@ -26,6 +26,30 @@ public static class Easy_01_04
         // Approach 2: LINQ (like Python sum(list1))
         Console.WriteLine("Approach 2 (LINQ .Sum()): " + list1.Sum());
         Console.WriteLine();
-  
+
+
+        // Q2: Find the Largest and Smallest Element in a List
+        // Python:
+        // largest = l[0]; smallest = l[0]
+        Console.WriteLine("--- Q2: Largest & Smallest Element ---");
+        static void FindLargestSmallest(List<int> list)
+        {
+            int largest = list[0];
+            int smallest = list[0];
+
+            foreach (int num in list)
+            {
+                if (num > largest)
+                    largest = num;
+                else if (num < smallest)
+                    smallest = num;
+            }
+            Console.WriteLine($"Largest: {largest}, Smallest: {smallest}");
+        }
+        FindLargestSmallest(list1);
+        Console.WriteLine();
+
+
+        
     }
 }
