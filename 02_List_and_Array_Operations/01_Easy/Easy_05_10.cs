@@ -71,6 +71,28 @@ public static class Easy_05_10
         Console.WriteLine();
 
 
+        // Q8: Find Common Elements Between Two Lists
+        Console.WriteLine("--- Q8: Common Elements Between Two Lists ---");
+        List<int> listA = new List<int> { 1, 3, 5, 7, 9 };
+        List<int> listB = new List<int> { 0, 2, 3, 6, 7, 8 };
+
+        static List<int> FindCommonElements(List<int> l1, List<int> l2)
+        {
+            List<int> common = new List<int>();
+            foreach (int a in l1)
+            {
+                if (l2.Contains(a) && !common.Contains(a))
+                {
+                    common.Add(a);
+                }
+            }
+            return common;
+        }
+        List<int> commonElements = FindCommonElements(listA, listB);
+        Console.WriteLine("Common Elements: [" + string.Join(", ", commonElements) + "]");
+        Console.WriteLine();
+
+
         
     }
 }
