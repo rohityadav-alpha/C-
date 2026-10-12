@@ -25,6 +25,27 @@ public static class Easy_05_10
         Console.WriteLine();
 
 
+        // Q6: Check Whether a List Contains a Given Element
+        // Python: if el in l: ... or manual loop
+        Console.WriteLine("--- Q6: Check Contains Element ---");
+        static bool ContainsElement(List<int> list, int target)
+        {
+            // Built-in: list.Contains(target)
+            foreach (int item in list)
+            {
+                if (item == target)
+                    return true;
+            }
+            return false;
+        }
+        int searchNum = 7;
+        if (ContainsElement(numbers, searchNum))
+            Console.WriteLine($"Yes! The element {searchNum} is present in the list.");
+        else
+            Console.WriteLine($"No! The element {searchNum} is not present in the list.");
+        Console.WriteLine();
+
+
         
     }
 }
