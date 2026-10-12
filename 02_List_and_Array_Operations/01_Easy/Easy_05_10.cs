@@ -110,6 +110,32 @@ public static class Easy_05_10
         Console.WriteLine();
 
 
-        
+        // Q10: Separate Different Types of Elements (Python isinstance() vs C# Pattern Matching)
+        // Python:
+        // if isinstance(l[i], str): str_list.append(l[i])
+        // elif isinstance(l[i], int): int_list.append(l[i])
+        Console.WriteLine("--- Q10: Separate Different Types (isinstance equivalent) ---");
+        // In C#, object is the root type of all types (like Python's any object)
+        List<object> mixedList = new List<object> { 1, "b", 7, "c", 5, 4, "r", 7, 4, "c" };
+
+        List<int> intList = new List<int>();
+        List<string> strList = new List<string>();
+
+        foreach (object item in mixedList)
+        {
+            // C# pattern matching 'is' works just like Python's isinstance()!
+            if (item is int num)
+            {
+                intList.Add(num);
+            }
+            else if (item is string str)
+            {
+                strList.Add(str);
+            }
+        }
+
+        Console.WriteLine("Integers: [" + string.Join(", ", intList) + "]");
+        Console.WriteLine("Strings:  [" + string.Join(", ", strList) + "]");
+        Console.WriteLine();
     }
 }
