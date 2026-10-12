@@ -93,6 +93,23 @@ public static class Easy_05_10
         Console.WriteLine();
 
 
+        // Q9: Merge Two Lists Without Duplicates
+        Console.WriteLine("--- Q9: Merge Two Lists Without Duplicates ---");
+        static List<int> MergeWithoutDuplicates(List<int> l1, List<int> l2)
+        {
+            // Approach: Use HashSet to guarantee uniqueness
+            HashSet<int> mergedSet = new HashSet<int>(l1);
+            foreach (int item in l2)
+            {
+                mergedSet.Add(item);
+            }
+            return mergedSet.ToList();
+        }
+        List<int> merged = MergeWithoutDuplicates(listA, listB);
+        Console.WriteLine("Merged Unique: [" + string.Join(", ", merged) + "]");
+        Console.WriteLine();
+
+
         
     }
 }
