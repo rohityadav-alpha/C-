@@ -46,6 +46,31 @@ public static class Easy_05_10
         Console.WriteLine();
 
 
+        // Q7: Find the Second Largest Element in a List
+        Console.WriteLine("--- Q7: Find Second Largest Element ---");
+        static int FindSecondLargest(List<int> list)
+        {
+            int largest = int.MinValue;
+            int secondLargest = int.MinValue;
+
+            foreach (int num in list)
+            {
+                if (num > largest)
+                {
+                    secondLargest = largest;
+                    largest = num;
+                }
+                else if (num > secondLargest && num != largest)
+                {
+                    secondLargest = num;
+                }
+            }
+            return secondLargest;
+        }
+        Console.WriteLine("Second largest number is: " + FindSecondLargest(numbers));
+        Console.WriteLine();
+
+
         
     }
 }
