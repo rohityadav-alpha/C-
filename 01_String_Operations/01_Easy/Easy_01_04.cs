@@ -6,10 +6,9 @@ public static class Easy_01_04
     {
         Console.WriteLine(" Module 01: String Operations (Easy 1-4)");
 
-        // ------------------------------------------------------------------
+
         // Q1: Find the Length of a String Without Using Built-in Length
         // C#: "rohit".Length (Note: Length is a property, not a method, so no ())
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q1: Find String Length ---");
         Console.WriteLine("Built-in Length of 'rohit': " + "rohit".Length);
 
@@ -28,13 +27,12 @@ public static class Easy_01_04
         Console.WriteLine("Custom CustomLength('rohit'): " + CustomLength("rohit"));
         Console.WriteLine();
 
-        // ------------------------------------------------------------------
+
         // Q2: Print Every Character of a String
         // Python:
         // def Char(s: str):
         //     for i in s:
         //         print(i)
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q2: Print Every Character ---");
         static void PrintChars(string s)
         {
@@ -47,14 +45,13 @@ public static class Easy_01_04
         PrintChars("roshni");
         Console.WriteLine();
 
-        // ------------------------------------------------------------------
+
         // Q3: Reverse a String Using a Loop
         // Python:
         // for i in range(len(s)-1, -1, -1):
         //     rev += s[i]
         // C#:
         // for (int i = s.Length - 1; i >= 0; i--)
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q3: Reverse String Using Loop ---");
         static void Reverse(string s)
         {
@@ -70,9 +67,8 @@ public static class Easy_01_04
         Reverse("vikas");
         Console.WriteLine();
 
-        // ------------------------------------------------------------------
+
         // Q4: Check Whether a String Is a Palindrome
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q4: Check Palindrome ---");
         static void CheckPalindrome(string s)
         {

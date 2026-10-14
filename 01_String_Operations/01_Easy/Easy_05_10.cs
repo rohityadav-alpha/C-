@@ -5,12 +5,9 @@ public static class Easy_05_10
     public static void Run()
     {
         Console.WriteLine(" Module 01: String Operations (Easy 5-10)");
-
-        // ------------------------------------------------------------------
         // Q5: Count Vowels and Consonants
         // Python: if ch in "aeiou": v += 1
         // C#: if ("aeiouAEIOU".Contains(ch))
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q5: Count Vowels & Consonants ---");
         static void CountVowelsConsonants(string w)
         {
@@ -33,11 +30,10 @@ public static class Easy_05_10
         CountVowelsConsonants("Rohit Kumar Yadav");
         Console.WriteLine();
 
-        // ------------------------------------------------------------------
+
         // Q6: Count Uppercase, Lowercase, Digits, and Special Characters
         // Python: ch.isupper(), ch.islower(), ch.isdigit()
         // C#: char.IsUpper(ch), char.IsLower(ch), char.IsDigit(ch)
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q6: Count Character Types ---");
         static void CountCharacterTypes(string s)
         {
@@ -61,11 +57,10 @@ public static class Easy_05_10
         CountCharacterTypes("Rohit@123_CSharp#2026");
         Console.WriteLine();
 
-        // ------------------------------------------------------------------
+
         // Q7: Count Occurrences of a Given Character
         // Python: for ch in word: if ch == char: n += 1
         // C#: foreach (char ch in word) if (ch == target) count++;
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q7: Count Occurrences of Character ---");
         static void CountCharOccurrences(string word, char target)
         {
@@ -80,11 +75,10 @@ public static class Easy_05_10
         CountCharOccurrences("programming in csharp", 'r');
         Console.WriteLine();
 
-        // ------------------------------------------------------------------
+
         // Q8: Remove All Spaces from a String
         // Python: s.replace(" ", "")
         // C#: s.Replace(" ", "") (Note: PascalCase method name!)
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q8: Remove Spaces ---");
         string name = "rohit kumar  yadav";
         // Solution 1: Built-in Replace
@@ -101,13 +95,12 @@ public static class Easy_05_10
         Console.WriteLine($"Solution 2 (Loop):    '{noSpace2}'");
         Console.WriteLine();
 
-        // ------------------------------------------------------------------
+
         // Q9: Swap First and Last Character of a String
         // Python: s[-1] + s[1:-1] + s[0]
         // C#: Modern C# supports Python-like slicing with ^ and .. !
         //     s[^1] means last char (like s[-1])
         //     s[1..^1] means slice from index 1 to second-to-last (like s[1:-1])
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q9: Swap First and Last Character ---");
         static string SwapFirstLast(string s)
         {
@@ -120,11 +113,10 @@ public static class Easy_05_10
         Console.WriteLine($"Original: 'python' -> Swapped: '{SwapFirstLast("python")}'");
         Console.WriteLine();
 
-        // ------------------------------------------------------------------
+
         // Q10: Capitalize First Letter of Each Word Without title()
         // Python: [w.capitalize() for w in s.split()]
         // C#: s.Split(' ') then capitalize first char of each word
-        // ------------------------------------------------------------------
         Console.WriteLine("--- Q10: Capitalize First Letter of Each Word ---");
         static string CapitalizeWords(string sentence)
         {
