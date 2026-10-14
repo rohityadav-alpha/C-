@@ -88,7 +88,52 @@ namespace _02_List_and_Array_Operations._04_Tricky
             Console.WriteLine();
 
 
-            
+            Console.WriteLine("-- Q4.ReArrange the array out looks like this [2,4,6,8,7,5,3,1,0,0,0,0]");
+            int[] arr4 = { 1, 0, 8, 0, 7, 0, 6, 2, 3, 4, 0, 5 };
+            //Bubble Sort Approach
+            //sort the zero at the right
+            for(int i = 0;i < arr4.Length; i++)
+            {
+                for(int j=0;j < arr4.Length - i -1; j++)
+                {
+                    if(arr4[j]==0)
+                    {
+                        int temp = arr4[j];
+                        arr4[j] = arr4[j + 1];
+                        arr4[j + 1] = temp;
+                    }
+                }
+            }
+            Console.WriteLine(string.Join(",", arr4));
+            //rearrange the even at the left and odd at the right before zeros 
+            for (int i = 0; i < arr4.Length; i++)
+            {
+                for (int j = 0; j < arr4.Length - i - 1; j++)
+                {
+                    if (arr4[j]%2!=0 && (arr4[j+1]%2==0 && arr4[j+1]!=0))
+                    {
+                        int temp = arr4[j];
+                        arr4[j] = arr4[j + 1];
+                        arr4[j + 1] = temp;
+                    }
+                }
+            }
+            Console.WriteLine(string.Join(",", arr4));
+            //Rearrange the even accending and odd in descending order
+            for (int i = 0; i < arr4.Length; i++)
+            {
+                for (int j = 0; j < arr4.Length - i - 1; j++)
+                {
+                    if ((arr4[j] % 2 != 0 && arr4[j+1]!=0 && arr4[j] < arr4[j+1]) || ((arr4[j + 1] % 2 == 0 && arr4[j + 1] != 0) && (arr4[j]%2==0 && arr4[j]!=0) && (arr4[j] > arr4[j+1])))
+                    {
+                        int temp = arr4[j];
+                        arr4[j] = arr4[j + 1];
+                        arr4[j + 1] = temp;
+                    }
+                }
+            }
+            Console.WriteLine(string.Join(",", arr4));
+            Console.WriteLine();
 
         }
     }
