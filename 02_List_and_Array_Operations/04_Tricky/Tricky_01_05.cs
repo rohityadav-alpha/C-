@@ -23,7 +23,7 @@ namespace _02_List_and_Array_Operations._04_Tricky
             Console.WriteLine();
 
 
-            Console.WriteLine("-- Q2.Shift Zero at the rigth of the array");
+            Console.WriteLine("-- Q2.Shift Zero at the rigth of the array remain the same order of non-zero element");
             int[] arr2 = { 1, 0, 6, 0, 3, 0, 0, 6, 3, 4, 0, 5 };
             //towpinter approach
             int x = 0;
@@ -38,10 +38,25 @@ namespace _02_List_and_Array_Operations._04_Tricky
                 }
             }
             Console.WriteLine(string.Join(",",arr2));
+
+            //Bbbble sort approach
+            for(int i = 0;i<arr2.Length; i++)
+            {
+                for(int j = 0; j<arr2.Length-i-1; j++)
+                {
+                    if (arr2[j]==0 && arr2[j + 1] != 0)
+                    {
+                        int temp=arr2[j];
+                        arr2[j] = arr2[j + 1];
+                        arr2[j + 1] = temp;
+                    }
+                }
+            }
+            Console.WriteLine(string.Join(",", arr2));
             Console.WriteLine();
 
 
-            Console.WriteLine("-- Q2.Shift Zero at the left of the array");
+            Console.WriteLine("-- Q2.Shift Zero at the left of the array remain the same order of non-zero element");
             int[] arr3 = { 1, 0, 6, 0, 3, 0, 0, 6, 3, 4, 0, 5 };
             int x1 = arr3.Length - 1;
             for (int i =arr3.Length-1; i>=0; i--)
