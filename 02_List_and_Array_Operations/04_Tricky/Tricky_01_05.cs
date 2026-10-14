@@ -38,26 +38,26 @@ namespace _02_List_and_Array_Operations._04_Tricky
                 }
             }
             Console.WriteLine(string.Join(",",arr2));
-
+            int[] arr2a = { 1, 0, 6, 0, 3, 0, 0, 6, 3, 4, 0, 5 };
             //Bbbble sort approach
-            for(int i = 0;i<arr2.Length; i++)
+            for (int i = 0;i<arr2a.Length; i++)
             {
-                for(int j = 0; j<arr2.Length-i-1; j++)
+                for(int j = 0; j<arr2a.Length-i-1; j++)
                 {
-                    if (arr2[j]==0 && arr2[j + 1] != 0)
+                    if (arr2a[j]==0)
                     {
-                        int temp=arr2[j];
-                        arr2[j] = arr2[j + 1];
-                        arr2[j + 1] = temp;
+                        int temp=arr2a[j];
+                        arr2a[j] = arr2a[j + 1];
+                        arr2a[j + 1] = temp;
                     }
                 }
             }
-            Console.WriteLine(string.Join(",", arr2));
+            Console.WriteLine(string.Join(",", arr2a));
             Console.WriteLine();
 
 
-            Console.WriteLine("-- Q2.Shift Zero at the left of the array remain the same order of non-zero element");
-            int[] arr3 = { 1, 0, 6, 0, 3, 0, 0, 6, 3, 4, 0, 5 };
+            Console.WriteLine("-- Q3.Shift Zero at the left of the array remain the same order of non-zero element");
+            int[] arr3 = { 1, 0, 8, 0, 7, 0, 6, 2, 3, 4, 0, 5 };
             int x1 = arr3.Length - 1;
             for (int i =arr3.Length-1; i>=0; i--)
             {
@@ -70,22 +70,26 @@ namespace _02_List_and_Array_Operations._04_Tricky
                 }
             }
             Console.WriteLine(string.Join(",", arr3));
-
+            int[] arr3a = { 1, 0, 8, 0, 7, 0, 6, 2, 3, 4, 0, 5 };
             //Bubble Sort approach
-            for (int i = 0; i < arr3.Length; i++)
+            for (int i = 0; i < arr3a.Length; i++)
             {
-                for (int j = 0; j < arr3.Length - i - 1; j++)
+                for (int j = 0; j < arr3a.Length - i-1; j++)
                 {
-                    if (arr2[j] == 0 && arr3[j + 1] != 0)
+                    if (arr3a[j + 1] == 0)
                     {
-                        int temp = arr3[j];
-                        arr3[j] = arr3[j + 1];
-                        arr3[j + 1] = temp;
+                        int temp = arr3a[j];
+                        arr3a[j] = arr3a[j + 1];
+                        arr3a[j + 1] = temp;
                     }
                 }
             }
-            Console.WriteLine(string.Join(",", arr3));
+            Console.WriteLine(string.Join(",", arr3a));
             Console.WriteLine();
+
+
+            
+
         }
     }
 }
