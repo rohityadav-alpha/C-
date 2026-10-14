@@ -41,7 +41,21 @@ namespace _02_List_and_Array_Operations._04_Tricky
             Console.WriteLine();
 
 
-            
+            Console.WriteLine("-- Q2.Shift Zero at the left of the array");
+            int[] arr3 = { 1, 0, 6, 0, 3, 0, 0, 6, 3, 4, 0, 5 };
+            int x1 = arr3.Length - 1;
+            for (int i =arr3.Length-1; i>=0; i--)
+            {
+                if (arr3[i] != 0)
+                {
+                    int temp = arr3[i];
+                    arr3[i] = arr3[x1];
+                    arr3[x1] = temp;
+                    x1--;
+                }
+            }
+            Console.WriteLine(string.Join(",", arr3));
+            Console.WriteLine();
         }
     }
 }
