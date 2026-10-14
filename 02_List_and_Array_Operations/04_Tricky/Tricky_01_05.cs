@@ -70,6 +70,21 @@ namespace _02_List_and_Array_Operations._04_Tricky
                 }
             }
             Console.WriteLine(string.Join(",", arr3));
+
+            //Bubble Sort approach
+            for (int i = 0; i < arr3.Length; i++)
+            {
+                for (int j = 0; j < arr3.Length - i - 1; j++)
+                {
+                    if (arr2[j] == 0 && arr3[j + 1] != 0)
+                    {
+                        int temp = arr3[j];
+                        arr3[j] = arr3[j + 1];
+                        arr3[j + 1] = temp;
+                    }
+                }
+            }
+            Console.WriteLine(string.Join(",", arr3));
             Console.WriteLine();
         }
     }
