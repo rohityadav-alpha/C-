@@ -12,3 +12,5 @@ d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\refint\02_List_and_Ar
 d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.pdb
 d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.genruntimeconfig.cache
 d:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\ref\02_List_and_Array_Operations.dll
+D:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_and_Array_Operations.sourcelink.json
+D:\LEARN_C#\02_List_and_Array_Operations\obj\Debug\net10.0\02_List_.A5A22E5A.Up2Date
