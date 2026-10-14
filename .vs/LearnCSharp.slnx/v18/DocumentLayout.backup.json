@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\LEARN_C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81148627-E16D-A6DB-1302-D73D15D1298C}|02_List_and_Array_Operations\\02_List_and_Array_Operations.csproj|d:\\learn_c#\\02_list_and_array_operations\\01_easy\\easy_11_15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81148627-E16D-A6DB-1302-D73D15D1298C}|02_List_and_Array_Operations\\02_List_and_Array_Operations.csproj|solutionrelative:02_list_and_array_operations\\01_easy\\easy_11_15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81148627-E16D-A6DB-1302-D73D15D1298C}|02_List_and_Array_Operations\\02_List_and_Array_Operations.csproj|d:\\learn_c#\\02_list_and_array_operations\\04_tricky\\tricky_01_05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81148627-E16D-A6DB-1302-D73D15D1298C}|02_List_and_Array_Operations\\02_List_and_Array_Operations.csproj|solutionrelative:02_list_and_array_operations\\04_tricky\\tricky_01_05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Easy_11_15.cs",
-              "DocumentMoniker": "D:\\LEARN_C#\\02_List_and_Array_Operations\\01_Easy\\Easy_11_15.cs",
-              "RelativeDocumentMoniker": "02_List_and_Array_Operations\\01_Easy\\Easy_11_15.cs",
-              "ToolTip": "D:\\LEARN_C#\\02_List_and_Array_Operations\\01_Easy\\Easy_11_15.cs*",
-              "RelativeToolTip": "02_List_and_Array_Operations\\01_Easy\\Easy_11_15.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T15:53:00.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Tricky_01_05.cs",
               "DocumentMoniker": "D:\\LEARN_C#\\02_List_and_Array_Operations\\04_Tricky\\Tricky_01_05.cs",
               "RelativeDocumentMoniker": "02_List_and_Array_Operations\\04_Tricky\\Tricky_01_05.cs",
-              "ToolTip": "D:\\LEARN_C#\\02_List_and_Array_Operations\\04_Tricky\\Tricky_01_05.cs*",
-              "RelativeToolTip": "02_List_and_Array_Operations\\04_Tricky\\Tricky_01_05.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\LEARN_C#\\02_List_and_Array_Operations\\04_Tricky\\Tricky_01_05.cs",
+              "RelativeToolTip": "02_List_and_Array_Operations\\04_Tricky\\Tricky_01_05.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T15:37:31.073Z",
               "EditorCaption": ""

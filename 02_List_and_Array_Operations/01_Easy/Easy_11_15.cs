@@ -8,7 +8,7 @@ namespace _02_List_and_Array_Operations._01_Easy
     internal class Easy_11_15
     {
 
-        public static void Main()
+        public static void Run()
         {
             Console.WriteLine("-- 11. Find the Index of the First Occurrence of an Element");
             int[] numbers = { 1, 2, 3, 4, 5 };

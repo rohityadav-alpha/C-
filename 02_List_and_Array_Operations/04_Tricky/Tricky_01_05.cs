@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace _02_List_and_Array_Operations._04_Tricky
@@ -22,7 +23,25 @@ namespace _02_List_and_Array_Operations._04_Tricky
             Console.WriteLine();
 
 
+            Console.WriteLine("-- Q2.Shift Zero at the rigth of the array");
+            int[] arr2 = { 1, 0, 6, 0, 3, 0, 0, 6, 3, 4, 0, 5 };
+            //towpinter approach
+            int x = 0;
+            for(int i = 0; i<arr2.Length; i++)
+            {
+                if(arr2[i] != 0)
+                {
+                    int temp=arr2[i];
+                    arr2[i] = arr2[x];
+                    arr2[x] = temp;
+                    x++;
+                }
+            }
+            Console.WriteLine(string.Join(",",arr2));
+            Console.WriteLine();
 
+
+            
         }
     }
 }

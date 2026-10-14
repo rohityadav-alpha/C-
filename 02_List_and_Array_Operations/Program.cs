@@ -13,7 +13,7 @@ Easy_01_04.Run();
 Easy_05_10.Run();
 
 //Run Easy 11 to 15
-Easy_11_15.Main();
+Easy_11_15.Run();
 
 // Run Tricky 01 to 04
 Tricky_01_05.Run();
