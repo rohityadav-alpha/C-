@@ -32,7 +32,27 @@ namespace _01_String_Operations._04_Tricky
             Console.WriteLine();
 
 
-            Console.WriteLine("---Q2.find the largest palindromic substring from the sting");
+
+            Console.WriteLine("---Q2.Find Weather the string is palindrom or not");
+            string word3 = "level";
+            string rev = "";
+            foreach(char ch in word3)
+            {
+                rev = ch + rev;
+            }
+            if (rev == word3)
+            {
+                Console.WriteLine("the string is palindrom");
+            }
+            else
+            {
+                Console.WriteLine("the string is not palindrom");
+            }
+            Console.WriteLine();
+
+
+
+            Console.WriteLine("---Q3.find the largest palindromic substring from the sting");
             string word2 = "babaabaabad";
             static int Expand(string s,int left,int right)
             {
