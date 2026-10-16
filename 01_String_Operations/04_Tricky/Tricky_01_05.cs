@@ -13,10 +13,10 @@ namespace _01_String_Operations._04_Tricky
         {
             Console.WriteLine("---Q1.Find first non-repeating character in a string");
             string word1 = "rohrioth";
-            foreach(char ch in word1)
+            foreach (char ch in word1)
             {
                 int count = 0;
-                foreach(char ch1 in word1)
+                foreach (char ch1 in word1)
                 {
                     if (ch == ch1)
                     {
@@ -36,7 +36,7 @@ namespace _01_String_Operations._04_Tricky
             Console.WriteLine("---Q2.Find Weather the string is palindrom or not");
             string word3 = "level";
             string rev = "";
-            foreach(char ch in word3)
+            foreach (char ch in word3)
             {
                 rev = ch + rev;
             }
@@ -52,7 +52,24 @@ namespace _01_String_Operations._04_Tricky
 
 
 
-            Console.WriteLine("---Q3.find the largest palindromic substring from the sting");
+            Console.WriteLine("---Q3.find weather the two strings are anagram");
+            string w1 = "silent";
+            string w2 = "listen";
+            char[] arr1 = w1.ToCharArray();Array.Sort(arr1);
+            char[] arr2 = w2.ToCharArray();Array.Sort(arr2);
+            if(new string(arr1)==new string(arr2))
+            {
+                Console.WriteLine("the string is anagram");
+            }
+            else
+            {
+                Console.WriteLine("the string is not anagram");
+            }
+
+            Console.WriteLine();
+
+
+            Console.WriteLine("---Q4.find the largest palindromic substring from the sting");
             string word2 = "babaabaabad";
             static int Expand(string s,int left,int right)
             {
