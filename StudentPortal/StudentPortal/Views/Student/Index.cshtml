@@ -1,0 +1,38 @@
+﻿
+@using StudentPortal.Models
+@model List<StudentModel>
+
+@{
+    ViewData["Title"] = "Studens record";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To the Student portal</h1>
+    <span>Total records: @Model.Count</span>
+    <table table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Marks</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(int i=0; i<Model.Count; i++)
+            {
+                var item = Model[i];
+                var isPass = item.IsPass();
+                var status = isPass ? "Passed" : "Failed";
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.name</td>
+                    <td>@item.age</td>
+                    <td>@item.marks</td>
+                    <td>@status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
