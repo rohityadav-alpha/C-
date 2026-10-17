@@ -1,0 +1,16 @@
+D:\LEARN_C#\09_Properties\bin\Debug\net10.0\09_Properties.exe
+D:\LEARN_C#\09_Properties\bin\Debug\net10.0\09_Properties.deps.json
+D:\LEARN_C#\09_Properties\bin\Debug\net10.0\09_Properties.runtimeconfig.json
+D:\LEARN_C#\09_Properties\bin\Debug\net10.0\09_Properties.dll
+D:\LEARN_C#\09_Properties\bin\Debug\net10.0\09_Properties.pdb
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Properties.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Properties.AssemblyInfoInputs.cache
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Properties.AssemblyInfo.cs
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Properties.csproj.CoreCompileInputs.cache
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Properties.sourcelink.json
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Properties.dll
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\refint\09_Properties.dll
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Properties.pdb
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Properties.genruntimeconfig.cache
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\ref\09_Properties.dll
+D:\LEARN_C#\09_Properties\obj\Debug\net10.0\09_Prope.79A459C7.Up2Date

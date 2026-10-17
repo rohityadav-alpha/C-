@@ -7,4 +7,5 @@
   <Project Path="06_Loops_and_Patterns/06_Loops_and_Patterns.csproj" />
   <Project Path="07_Array_Operations/07_Array_Operations.csproj" />
   <Project Path="08_OOP_and_LINQ/08_OOP_and_LINQ.csproj" />
+  <Project Path="09_Properties/09_Properties.csproj" Id="5c1fdafc-548f-4cab-a930-3fda2a59c142" />
 </Solution>

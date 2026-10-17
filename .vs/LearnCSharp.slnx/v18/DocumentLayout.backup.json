@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\LEARN_C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD52582-F7FB-7D3C-A7B5-765F80CD7288}|01_String_Operations\\01_String_Operations.csproj|d:\\learn_c#\\01_string_operations\\04_tricky\\tricky_01_05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD52582-F7FB-7D3C-A7B5-765F80CD7288}|01_String_Operations\\01_String_Operations.csproj|solutionrelative:01_string_operations\\04_tricky\\tricky_01_05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C1FDAFC-548F-4CAB-A930-3FDA2A59C142}|09_Properties\\09_Properties.csproj|d:\\learn_c#\\09_properties\\01_easy\\01_05_easy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1FDAFC-548F-4CAB-A930-3FDA2A59C142}|09_Properties\\09_Properties.csproj|solutionrelative:09_properties\\01_easy\\01_05_easy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1FDAFC-548F-4CAB-A930-3FDA2A59C142}|09_Properties\\09_Properties.csproj|d:\\learn_c#\\09_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1FDAFC-548F-4CAB-A930-3FDA2A59C142}|09_Properties\\09_Properties.csproj|solutionrelative:09_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tricky_01_05.cs",
-              "DocumentMoniker": "D:\\LEARN_C#\\01_String_Operations\\04_Tricky\\Tricky_01_05.cs",
-              "RelativeDocumentMoniker": "01_String_Operations\\04_Tricky\\Tricky_01_05.cs",
-              "ToolTip": "D:\\LEARN_C#\\01_String_Operations\\04_Tricky\\Tricky_01_05.cs",
-              "RelativeToolTip": "01_String_Operations\\04_Tricky\\Tricky_01_05.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwD8AAAAQAAAAAAAAAA==",
+              "Title": "01_05_Easy.cs",
+              "DocumentMoniker": "D:\\LEARN_C#\\09_Properties\\01_Easy\\01_05_Easy.cs",
+              "RelativeDocumentMoniker": "09_Properties\\01_Easy\\01_05_Easy.cs",
+              "ToolTip": "D:\\LEARN_C#\\09_Properties\\01_Easy\\01_05_Easy.cs",
+              "RelativeToolTip": "09_Properties\\01_Easy\\01_05_Easy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T16:33:12.52Z",
+              "WhenOpened": "2026-10-17T17:23:49.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LEARN_C#\\09_Properties\\Program.cs",
+              "RelativeDocumentMoniker": "09_Properties\\Program.cs",
+              "ToolTip": "D:\\LEARN_C#\\09_Properties\\Program.cs",
+              "RelativeToolTip": "09_Properties\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T17:22:12.879Z",
               "EditorCaption": ""
             }
           ]
