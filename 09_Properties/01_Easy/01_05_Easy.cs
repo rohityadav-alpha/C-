@@ -15,14 +15,26 @@ namespace _09_Properties._01_Easy
 
         public double getBalance { get { return balance; } } 
     }
+
+    public class Students
+    {
+        public string name { get; set; } = string.Empty;
+        public int age { get; set; } = 0;
+    }
     internal class _01_05_Easy
     {
         public static void Run()
         {
             Accounts A = new Accounts();
+            A.name = "rohit";
             A.diposit = 1500;
             A.widthdraw = 300;
             Console.WriteLine($"{A.getBalance}");
+            Console.WriteLine();
+            Students S=new Students();
+            S.name = "rohit yadav";
+            S.age = 18;
+            Console.WriteLine($"{S.name} , {S.age}");
         }
     }
 }
